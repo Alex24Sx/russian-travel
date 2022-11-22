@@ -3,4 +3,8 @@
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  min-height: 52px;
+  min-width: 1184px;
+  margin: 0;
+  padding: 28px 48px 0px 48px;
 }

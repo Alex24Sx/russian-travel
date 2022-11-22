@@ -9,3 +9,18 @@
   background-color: #2A2C2F;
   color: #FFFFFF;
 }
+
+* {
+  outline: 1px solid rgb(52, 69, 165);
+  }
+  */
+  /* var docWidth = document.documentElement.offsetWidth; /*ниже проверка горизонтального скролла/*ниже проверка горизонтального скролла
+  [].forEach.call(
+    document.querySelectorAll('*'),
+    function(el) {
+      if (el.offsetWidth > docWidth) {
+        console.log(el);
+      }
+    }
+  );
+  */
