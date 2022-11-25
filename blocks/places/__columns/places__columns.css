@@ -1,7 +1,6 @@
 .places__columns{
   display: flex;
-  max-width: 984px;
-  max-height: 660px;
+  max-width: 77vw;
   margin: 0 0 5rem 0;
   padding: 0;
   gap: 40px;
