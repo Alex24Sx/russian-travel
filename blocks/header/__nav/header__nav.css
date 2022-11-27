@@ -3,3 +3,18 @@ padding: 18px 0px 6px 0px;
 display: flex;
 gap: 18px;
 }
+@media screen and (max-width: 1024px){
+  .header__nav {
+
+  }
+}
+@media screen and (max-width: 768px){
+  .header__nav {
+
+  }
+}
+@media screen and (max-width: 320px){
+  .header__nav {
+    padding: 14px 0px 8px 0px;
+  }
+}
