@@ -5,3 +5,28 @@
   max-width: 92.5%;
   justify-content: space-between;
 }
+@media screen and (max-width: 1024px){
+  .footer {
+
+  }
+}
+@media screen and (max-width: 768px){
+  .footer {
+
+  }
+}
+@media screen and (max-width: 560px){
+  .footer {
+flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px){
+  .footer {
+
+  }
+}
+@media screen and (max-width: 320px){
+  .footer {
+
+  }
+}
