@@ -12,6 +12,12 @@
     max-width: 928px;
   }
 }
+@media screen and (max-width: 1000px){
+  .places {
+    gap: 72px;
+    max-width: 820px;
+  }
+}
 @media screen and (max-width: 768px){
   .places {
     gap: 72px;

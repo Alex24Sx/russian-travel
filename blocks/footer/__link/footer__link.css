@@ -5,4 +5,29 @@
   text-decoration: none;
   color: #FFFFFF;
 }
+@media screen and (max-width: 1024px){
+  .footer__link{
 
+  }
+}
+@media screen and (max-width: 768px){
+  .footer__link{
+
+  }
+}
+@media screen and (max-width: 560px){
+  .footer__link{
+    font-size: 24px;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 425px){
+  .footer__link{
+
+  }
+}
+@media screen and (max-width: 320px){
+  .footer__link{
+
+  }
+}
