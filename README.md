@@ -6,6 +6,7 @@
 
 Проект о путешествии по России на поезде по Транссибирской железной дороге
 
+![image](https://github.com/Alex24Sx/russian-travel/blob/main/images/gif-to-README/Ao.gif)
 
 ## Figma
  Сверстано кровью и потом с макета *Figma*
