@@ -1,4 +1,5 @@
 .places__paragraph-container{
+  grid-area: paragraph-container;
   min-height: 460px;
   margin: 0;
   padding: 0;
