@@ -8,7 +8,10 @@
 
 ## О проекте
 ![image](https://github.com/Alex24Sx/russian-travel/blob/main/images/gif-to-README/Ao.gif)
- Сверстано кровью и потом с макета *Figma*
+
+
+
+Сверстано кровью и потом с макета *Figma*
 Применены:
 - флексы
 - гриды
