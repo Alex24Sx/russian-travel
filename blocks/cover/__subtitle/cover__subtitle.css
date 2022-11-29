@@ -9,5 +9,32 @@ display: flex;
 margin: 0 auto;
 padding: 32px 0 0 0;
 justify-content: center;
-max-width: 30.4%;
+max-width: 360px;
+}
+@media screen and (max-width: 1024px){
+  .cover__subtitle {
+
+  }
+}
+@media screen and (max-width: 768px){
+  .cover__subtitle {
+
+  }
+}
+@media screen and (max-width: 560px){
+  .cover__subtitle {
+
+  }
+}
+@media screen and (max-width: 425px){
+  .cover__subtitle {
+
+  }
+}
+@media screen and (max-width: 320px){
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 114%;
+    padding: 32px 0 0 0;
+  }
 }

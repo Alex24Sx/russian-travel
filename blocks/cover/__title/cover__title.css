@@ -9,5 +9,39 @@
   z-index: 3;
   display: flex;
   justify-content: center;
-  max-width: 47.3%;
+  max-width: 560px;
+}
+@media screen and (max-width: 1024px){
+  .cover__title {
+    padding: 195px 0 0 0;
+  }
+}
+@media screen and (max-width: 768px){
+  .cover__title {
+    padding: 115px 0 0 0;
+  }
+}
+@media screen and (max-width: 560px){
+  .cover__title {
+    padding: 106px 0 0 0;
+    max-width: 280px;
+    font-size: 56px;
+    line-height: 109% ;
+  }
+}
+@media screen and (max-width: 425px){
+  .cover__title {
+    padding: 81px 0 0 0;
+    max-width: 280px;
+    font-size: 42px;
+    line-height: 109% ;
+  }
+}
+@media screen and (max-width: 320px){
+  .cover__title {
+    padding: 33px 0 0 0;
+    max-width: 280px;
+    font-size: 32px;
+    line-height: 109% ;
+  }
 }

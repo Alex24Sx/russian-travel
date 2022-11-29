@@ -25,16 +25,35 @@
 }
 @media screen and (max-width: 1024px){
   .cover {
-
+    max-width: 100%;
+    min-height: 640px;
   }
 }
 @media screen and (max-width: 768px){
   .cover {
-
+    max-width: 100%;
+    min-height: 480px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .cover:hover::before {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px){
+  .cover {
+    max-width: 100%;
+    min-height: min-content;
+  }
+}
+@media screen and (max-width: 425px){
+  .cover {
+    max-width: 100%;
+    min-height: min-content;
   }
 }
 @media screen and (max-width: 320px){
   .cover {
-
+    max-width: 100%;
+    min-height: 200px;
   }
 }
