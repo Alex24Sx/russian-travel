@@ -18,8 +18,29 @@
     max-width: 94vw;
   }
 }
+@media screen and (max-width: 560px){
+  .places__place {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "title"
+    "url-heading"
+    "link"
+    "image"
+    "paragraph-container";
+    max-width: 560px;
+  }
+}
 @media screen and (max-width: 320px){
   .places__place {
-    max-width: 94vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "title"
+    "url-heading"
+    "link"
+    "image"
+    "paragraph-container";
+    max-width: 320px;
   }
 }
