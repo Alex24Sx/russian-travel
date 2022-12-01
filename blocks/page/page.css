@@ -1,5 +1,5 @@
 .page {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   background-color: #2A2C2F;
   color: #FFFFFF;
@@ -7,10 +7,11 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
    text-rendering: optimizeLegibility;
+
 }
 @media screen and (max-width: 1024px){
   .page {
-    max-width: 100%;
+    max-width: 1024px;
   }
 }
 @media screen and (max-width: 768px){
@@ -23,3 +24,17 @@
     max-width: 100%;
   }
 }
+* {
+  outline: 7px solid rgb(52, 69, 165);
+  }
+
+  /* var docWidth = document.documentElement.offsetWidth; /*ниже проверка горизонтального скролла/*ниже проверка горизонтального скролла
+  [].forEach.call(
+    document.querySelectorAll('*'),
+    function(el) {
+      if (el.offsetWidth > docWidth) {
+        console.log(el);
+      }
+    }
+  );
+  */
