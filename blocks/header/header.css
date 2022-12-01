@@ -5,8 +5,8 @@
   overflow: hidden;
   min-height: 52px;
   max-width: 1184px;
-  margin: 0px auto;
-  padding: 28px 0 0 0;
+  margin: 0px;
+  padding: 28px 48px 0 48px;
 }
 @media screen and (max-width: 1280px){
   .header {
@@ -21,12 +21,13 @@
 @media screen and (max-width: 768px){
   .header {
     max-width: 720px;
+    padding: 28px 24px 0 24px;
   }
 }
 @media screen and (max-width: 320px){
   .header {
     max-width: 288px;
     min-height: 42px;
-    padding: 16px 0 0 0;
+    padding: 16px 16px 0 16px;
   }
 }

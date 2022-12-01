@@ -3,16 +3,16 @@
   margin: 0 auto;
   padding: 0;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1150px){
   .lead__image {
     width: 928px;
     height: 580px;
   }
 }
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1020px){
   .lead__image {
     width: 100%;
-    
+
   }
 }
 @media screen and (max-width: 768px){
