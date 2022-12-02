@@ -1,6 +1,5 @@
 .places__paragraph-container{
   grid-area: paragraph-container;
-  min-height: 460px;
   max-width: 484px;
   margin: 0;
   padding: 0;
@@ -10,13 +9,11 @@
 }
 @media screen and (max-width: 1024px){
   .places__paragraph-container {
-    min-height: 440px;
     max-width: 456px;
   }
 }
 @media screen and (max-width: 768px){
   .places__paragraph-container {
-    min-height: 340px;
     max-width: 352px;
     gap: 25px;
   }
@@ -24,13 +21,11 @@
 @media screen and (max-width: 560px){
   .places__paragraph-container {
     margin: 32px auto 0 auto;
-    gap: 25px;
   }
 }
 @media screen and (max-width: 320px){
   .places__paragraph-container {
     max-width: 288px;
-    margin: 32px auto 0 auto;
     gap: 25px;
   }
 }

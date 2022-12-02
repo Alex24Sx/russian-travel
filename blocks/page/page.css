@@ -19,11 +19,6 @@
     max-width: 100%;
   }
 }
-@media screen and (max-width: 320px){
-  .page {
-    max-width: 100%;
-  }
-}
 /*
  {
 	outline: 3px solid rgb(52, 69, 165);

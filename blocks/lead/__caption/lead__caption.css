@@ -4,12 +4,9 @@
   font-weight: normal;
   font-size: 10px;
   line-height: 140%;
-  max-width: 158px;
-  min-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   text-align: left;
-  white-space: nowrap;
   }
   @media screen and (max-width: 1024px){
     .lead__caption {

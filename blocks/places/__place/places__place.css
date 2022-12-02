@@ -33,14 +33,6 @@
 }
 @media screen and (max-width: 320px){
   .places__place {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "title"
-    "url-heading"
-    "link"
-    "image"
-    "paragraph-container";
     max-width: 320px;
   }
 }
