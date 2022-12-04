@@ -34,7 +34,6 @@
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 @import url(../blocks/places/__paragraph-container/places__paragraph-container.css);
-@import url(../blocks/places/__paragraph-container/_place/places__paragraph-container_place_altai.css);
 /*------------------cover ------------*/
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
