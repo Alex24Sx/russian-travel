@@ -3,6 +3,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 12px;
   max-width: 100%;
 }
@@ -11,13 +12,14 @@
     margin: 0 0 32px 16px;
   }
 }
-@media screen and (max-width: 560px){
+@media screen and (max-width: 620px){
   .places__website {
     margin: 0 0 32px 16px;
   }
 }
 @media screen and (max-width: 560px){
   .places__website {
+    max-width: 288px;
     margin: 0 0 32px 16px;
   }
 }
