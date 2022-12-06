@@ -1,6 +1,8 @@
 .cover{
- display: block;
+ display: flex;
+ flex-direction: column;
  text-decoration: none;
+ justify-content: center;
  color: white;
  max-width: 92.5%;
  min-height: 740px;
@@ -10,6 +12,7 @@
  margin: 0 auto;
  position: relative;
  z-index: 1;
+ align-items: center;
 }
 .cover::before {
   content: "";
